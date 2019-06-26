@@ -7,7 +7,7 @@ export class Todo{
     public id:number,
     public description:String,
     public done:boolean,
-    public targateDate:Date
+    public targetDate:Date
     ){}
 }
 @Component({
