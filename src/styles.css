@@ -1,2 +1,28 @@
     
 @import url(https://unpkg.com/bootstrap@4.1.1/dist/css/bootstrap.min.css);
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    border: 1px solid red;
+    padding: 15px;
+  }
+  
+  .menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+  
+  .main {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }

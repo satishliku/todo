@@ -1,0 +1,73 @@
+  
+  body{
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  mat-grid-tile {
+    background: lightblue;
+  }
+  .summer-container{
+    background-color: #f1f1f1;
+     
+  }
+.heights{
+  padding-top:10px;
+  height: 10px;
+}
+  .grid{
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 350;
+    
+  }
+  
+  .descriptions{
+    padding-top: 0.5%;
+  }
+
+  .summery-heading{
+    background-color: #2a3143;
+    color: white;
+    padding-top: 0.5%;
+  }
+  
+  .mat-fab.mat-accent, .mat-flat-button.mat-accent, .mat-mini-fab.mat-accent, .mat-raised-button.mat-accent
+  {
+    background-color: #2a3143;
+    border-radius: 0px;
+  }
+
+  .pipeline{
+    width: 100%;
+    height:210px;
+    background-color:#f0eeee;
+  }
+  .pipeline-steps{
+    padding-top: 6%;
+  }
+  .pipeline-steps h5
+  {
+    color: #3496fa;
+  }
+  .pad{
+    padding-top: 10%;
+  }
+  .btn-style{
+    background-color: #2a3143;
+    color: white;
+  }
+
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

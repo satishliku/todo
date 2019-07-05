@@ -1,0 +1,68 @@
+<!-- <html>
+  <head>
+
+  </head>
+
+  <body>
+    <h1>Project Data</h1><br>
+    <table class="table">
+     <thead class="thead-dark">
+        <tr>
+          <th>Id</th>
+          <th>Key</th>
+          <th>Project Name</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let Project of Projects">
+        <tr>
+          <td>{{Project.id}}</td>
+          <td>{{Project.key}}</td>
+          <td>{{Project.name}}</td>
+        </tr>
+      </tbody>
+      
+    </table>
+    
+  </body>
+</html> -->
+<!-- <div *ngFor="let Project of Projects">
+    {{Project.name}}
+    <div *ngFor="let link of Project.links">
+       {{link.href}}
+    </div>
+   </div> -->
+  
+  <!-- <ul *ngFor="let Project of Projects">
+       <li>{{Project.key}}
+           <ul *ngFor="let link of Project._links">
+               <li>self
+                    <ul *ngFor="let href of link.self">
+                        <li>{{href}}</li>
+                    </ul>
+               </li>
+               <li>{{link.org}}</li>
+               <li>{{link.all-projects}}</li>
+           </ul>
+       </li>
+   </ul> -->
+
+<ul *ngFor="let Project of Projects">
+<li>Project
+    <ul *ngFor="let Pr of Project.projects">
+        <li>{{Pr.key}}</li>
+    </ul>
+</li>
+<li>Links
+    <ul *ngFor="let link of Project._links">
+            <li>
+                <ul *ngFor="let self of link.self">
+                    <li>{{self.href}}</li>
+                </ul>
+            </li>
+            <li>{{link.org}}</li>
+            <li>{{link.all-projects}}</li>
+        </ul>
+</li>
+    
+
+</ul>

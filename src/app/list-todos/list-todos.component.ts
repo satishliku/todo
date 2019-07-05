@@ -3,13 +3,11 @@ import { DataService } from '../service/todo/data.service';
 
 
 export class Todo{
-  constructor(
-    public id:number,
-    public description:String,
-    public done:boolean,
-    public targetDate:Date
-    ){}
+  
+  constructor(){}
+    
 }
+
 @Component({
   selector: 'app-list-todos',
   templateUrl: './list-todos.component.html',
