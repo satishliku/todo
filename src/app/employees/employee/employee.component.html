@@ -1,0 +1,18 @@
+<p>Employee Details!</p>
+
+
+
+
+<table>
+    <tr>
+        <th>Emp Id</th>
+        <th>Emp Name</th>
+        <th>Emp Age</th>
+    </tr>
+    <tr *ngFor="let emp of employees">
+        <td>{{emp.id}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.age}}</td>
+    </tr>
+    <tr>Length of Emp list{{ employees?.length }}</tr>
+</table>

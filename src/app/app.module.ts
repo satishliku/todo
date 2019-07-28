@@ -7,6 +7,7 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MatGridListModule } from '@angular/material/grid-list';
 import{ MatTabsModule }from '@angular/material/tabs';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -17,6 +18,9 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectComponent } from './project/project.component';
 import { CustomerCardComponent } from './customer-card/customer-card.component';
+import { EmployeeComponent } from './employees/employee/employee.component';
+import { CourselistComponent } from './courselist/courselist.component';
+
 
 
 
@@ -30,7 +34,10 @@ import { CustomerCardComponent } from './customer-card/customer-card.component';
     MenuComponent,
     FooterComponent,
     ProjectComponent,
-    CustomerCardComponent
+    CustomerCardComponent,
+    EmployeeComponent,
+    CourselistComponent,
+    
     
   ],
   imports: [

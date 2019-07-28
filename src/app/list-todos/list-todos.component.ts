@@ -18,13 +18,13 @@ export class ListTodosComponent implements OnInit {
 
 todos:Todo[]
 
-//  todos=[
-//    new Todo(1,"java",false,new Date()),
-//    new Todo(2,".Net",false,new Date()),
-//    new Todo(3,"PHP",false,new Date()),
-//    new Todo(4,"C#",false,new Date())
+  // todos=[
+  //   new Todo(1,"java",false,new Date()),
+  //   new Todo(2,".Net",false,new Date()),
+  //   new Todo(3,"PHP",false,new Date()),
+  //   new Todo(4,"C#",false,new Date())
   
-//  ]
+  // ]
 
   // todo={
   //   id:1,description:'java'

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Java",
+        "description": "Core java is a very good topic",
+        "couresList": [{
+			"id": "1",
+			"name": "ABC",
+			"description": "ABC is a very good course"		
+		}]
+    },
+    {
+        "id": "2",
+        "name": "C++",
+        "description": "C++ is a very good topic",
+        "couresList": [{
+			"id": "2",
+			"name": "XYZ",
+			"description": "XYZ is a very good course"
+            }]
+    },
+    {
+        "id": "3",
+        "name": "C",
+        "description": "C is a very good topic",
+        "couresList": [{
+			"id": "3",
+			"name": "PQR",
+			"description": "PQR is a very good course"
+        }]
+    }
+]

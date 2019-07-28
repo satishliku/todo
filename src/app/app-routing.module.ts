@@ -6,6 +6,9 @@ import { ErrorComponent } from './error/error.component';
 import { ListTodosComponent } from './list-todos/list-todos.component';
 import { ProjectComponent } from './project/project.component';
 import { CustomerCardComponent } from './customer-card/customer-card.component';
+import { EmployeeComponent } from './employees/employee/employee.component';
+import { CourselistComponent } from './courselist/courselist.component';
+
 
 const routes: Routes = [
 {path:'',component:LoginComponent},
@@ -14,6 +17,9 @@ const routes: Routes = [
 {path:'todos',component:ListTodosComponent},
 {path:'project',component:ProjectComponent},
 {path:'customerinfo',component:CustomerCardComponent},
+{path:'course',component:CourselistComponent},
+{path:'employees',component:EmployeeComponent},
+
 {path:'**',component:ErrorComponent}
 ];
 
